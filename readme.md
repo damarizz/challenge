@@ -1,21 +1,28 @@
-# Let's start to make money
+# Preauth Coding Challenge Submission 🚀
 
-## How you'll be assessed
+This repository contains my submission for the **Preauth Technical Challenge**.
 
-- We love good code. Easy to read and with the best practices.
-- We want self-documenting code.
-- Efficiency in execution time and memory usage.
-- Easy to be tested.
+It includes solutions to both proposed problems:
 
-## Games
+- [`Don't Permute`](./game-01)
+- [`Spaghetti Code (Gilded Rose)`](./game-02)
 
-- [Don't permute](https://github.com/preauth-io/challenge/tree/main/game-01)
-- [Spaghetti code](https://github.com/preauth-io/challenge/tree/main/game-02)
+## How the solutions are structured
 
-## Any doubts?
-Just open a [new issue](https://github.com/preauth-io/challenge/issues/new) and we'll get back to you asap.
+Each challenge lives in its own folder (`game-01` and `game-02` respectively). Inside each you'll find:
+- Clean, self-documented code.
+- A detailed write-up describing the approach and testing strategy.
+- Unit tests covering edge cases and expected behaviors.
 
-## Once you are finished...
+## Evaluation Criteria (Revisited)
 
-- Upload your solutions to a public repository in GitHub or a similar service.
-- Share your repository link with us by email to sebastian@instacash.pe & diego@instacash.pe
+✔️ **Good Code Practices**: Solutions follow principles like SOLID, clean code, and self-explanatory logic.
+
+✔️ **Self-Documentation**: No need for external documentation to understand what each class or function does.
+
+✔️ **Efficiency**: Code is optimized for performance and memory usage within the context of the problem.
+
+✔️ **Testability**: Each solution includes complete test coverage.
+
+## Questions or Feedback?
+If anything is unclear, feel free to reach out. Thanks for reviewing my work!
