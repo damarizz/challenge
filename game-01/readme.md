@@ -1,11 +1,62 @@
-# Game 01
+# Don't Permute – TypeScript Solution
 
-Let M be a not empty set of integer numbers, find the first subset of 2 numbers of M which sum N. For instance, let's say we've got a set of numbers [2, 5, 8, 14, 0] and N = 10, the resulting subset should be [2, 8].
+This is a clean, performant, and fully tested implementation of the **Don't Permute** challenge, written in TypeScript. It follows clean code principles, is self-documented, and ensures optimal time and space complexity.
 
-## Challenge
-You're required to create a function that receives an array (M) and integer value (N). This function has to return an array of the first possible solution.
+## 🧠 Problem Summary
 
+Let `M` be a non-empty set of integers. The task is to find the first subset of two numbers in `M` whose sum equals a given target `N`.
 
-> 🚨 We're looking to someone who can imagine future problems while is coding.
+For example:
 
- 
+```ts
+M = [2, 5, 8, 14, 0]
+N = 10
+Result = [2, 8]
+```
+
+You must implement a function that receives:
+- an array of integers M
+- a target integer N
+
+It should return:
+- a pair of integers [a, b] such that a + b === N
+
+The function must return the first valid solution found, in the order of the input.
+
+## ✅ Solution Highlights
+Uses a single-pass hash set strategy for efficient lookup.
+
+- Time Complexity: O(n)
+- Space Complexity: O(n) in the worst case
+- Includes test cases with edge coverage and input validation.
+
+Edge Cases Considered:
+- Negative numbers
+- Zero
+- Duplicate values
+- No solution found
+
+## 🔧 How to Run the Project
+
+1. Install dependencies
+
+```bash
+npm install
+```
+
+2. Run the tests
+
+```bash
+npm test
+```
+
+Test cases are located in findPairSummingToN.test.ts and validate behavior for:
+- Basic scenarios
+- Edge cases
+- Inputs with no solution
+
+## 🚀 Why this approach?
+- Ensures readability and extensibility.
+- Optimized for performance and memory efficiency.
+- Easily testable and maintainable.
+- Future-proof: Can be extended to support more complex combinations (e.g. 3-sum, k-sum) or input validations.
